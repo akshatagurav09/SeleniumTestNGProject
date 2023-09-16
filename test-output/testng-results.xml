@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-16T20:29:48 IST" name="Default suite" finished-at="2023-09-16T20:30:52 IST" duration-ms="63854">
+    <groups>
+    </groups>
+    <test started-at="2023-09-16T20:29:48 IST" name="Default test" finished-at="2023-09-16T20:30:52 IST" duration-ms="63854">
+      <class name="TestCases.MyInfoTestCases">
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:TestCases.MyInfoTestCases@f09733f]" started-at="2023-09-16T20:29:48 IST" name="urlLaunch" finished-at="2023-09-16T20:30:22 IST" duration-ms="34013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="fillPersonalDetails()[pri:0, instance:TestCases.MyInfoTestCases@f09733f]" started-at="2023-09-16T20:30:23 IST" name="fillPersonalDetails" finished-at="2023-09-16T20:30:49 IST" duration-ms="26705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillPersonalDetails -->
+        <test-method is-config="true" signature="quitURL()[pri:0, instance:TestCases.MyInfoTestCases@f09733f]" started-at="2023-09-16T20:30:49 IST" name="quitURL" finished-at="2023-09-16T20:30:52 IST" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitURL -->
+      </class> <!-- TestCases.MyInfoTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

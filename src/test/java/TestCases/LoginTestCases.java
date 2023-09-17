@@ -12,6 +12,7 @@ import Resources.baseClass;
 
 public class LoginTestCases extends baseClass {
 	
+	//Added one new line for git demo purpose
 	public SoftAssert sa;
 	
 	@Test(priority=0)

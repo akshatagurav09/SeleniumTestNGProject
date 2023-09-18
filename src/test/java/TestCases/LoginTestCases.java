@@ -18,19 +18,19 @@ public class LoginTestCases extends baseClass {
 	@Test(priority=0)
 	public void verifyValidLogin() throws IOException, InterruptedException
 	{
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		
 		LoginPageObjects lpo = new LoginPageObjects(driver);
 		CommonMethods.expWait(driver, lpo.enterUserName(), 10);
-		lpo.enterUserName().sendKeys("Constants1.ValiduserName");
+		lpo.enterUserName().sendKeys(Constants1.ValiduserName);
 		
 		lpo.enterPassword().sendKeys(Constants1.validPassword);
 		lpo.clickOnLogin().click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		CommonMethods.handleAssertion(driver.getCurrentUrl(), Constants1.ExpectedURL);
-		
+		Thread.sleep(2000);
 		}
 	 
 	@Test(priority=1)

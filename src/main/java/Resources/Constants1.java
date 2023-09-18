@@ -2,7 +2,7 @@ package Resources;
 
 public class Constants1 {
 
-	public static String ValiduserName="Admin789";
+	public static String ValiduserName="Admin";
 	public static String validPassword="admin123";
 	public static String InvalidUser="admin123456";
 	public static String Invalidpassword="admin123456";
